@@ -1,0 +1,99 @@
+:root {
+  --primary: #0066ff;
+  --secondary: #ff4081;
+  --background: #f8f9fa;
+  --text-dark: #333;
+  --text-light: #fff;
+  --border-radius: 10px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background);
+  color: var(--text-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 850px;
+  display: flex;
+  background: #fff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.form {
+  flex: 1;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  background: var(--primary);
+  color: var(--text-light);
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: var(--secondary);
+}
+
+.image-container {
+  flex: 0.7;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+}
+
+.image-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.toggle-btn {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--text-light);
+  transition: 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: var(--text-light);
+  color: var(--primary);
+}
