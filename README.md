@@ -12,4 +12,4 @@ A clean and stylish login/sign-up user interface with smooth transitions, modern
 ## 🔧 Technologies Used  
 - **HTML**  
 - **CSS**  
-- **JavaScript **  
+- **JavaScript**  
